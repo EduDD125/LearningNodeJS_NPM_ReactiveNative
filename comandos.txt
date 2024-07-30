@@ -1,0 +1,11 @@
+############################################
+###        comandos para iniciar         ###
+###           o projeto com NPM          ###  
+############################################
+
+
+
+npm init
+npm i express
+npm i nodemon
+npm i cors
