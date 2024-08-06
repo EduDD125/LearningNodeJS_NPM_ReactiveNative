@@ -5,8 +5,8 @@
 
 
 
-npm init
-npm i express
-npm i nodemon
-npm i cors
-npm start
+npm init - iniciar um projeto npm em um diretório
+npm i express - intalar o modulo "express"
+npm i nodemon   - instalar o modulo 'nodemon' (servidor)
+npm i cors  - instalar o modulo cors
+npm run dev - executar servidor
