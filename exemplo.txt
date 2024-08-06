@@ -1,0 +1,2 @@
+Esse arquivo servirá para testar funções de leitura e escrita
+de arquivos com Node.JS.
