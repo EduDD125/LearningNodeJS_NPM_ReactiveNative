@@ -10,3 +10,18 @@ npm i express - intalar o modulo "express"
 npm i nodemon   - instalar o modulo 'nodemon' (servidor)
 npm i cors  - instalar o modulo cors
 npm run dev - executar servidor
+
+
+Estamos usando o site reqbin.com para fazer as requisições http.
+O site vai pedir para baixa um extensão (ReqBin HTTP Client)
+no navegador Chrome para rodar, logo vc vai precisar usar o Chrome 
+e baixa a extensão.
+
+Fornecemos ao site a url onde roda nosso servidor "http://localhost:3000/", 
+o método http usado (get ou post) e mudando o select box perto do
+select box dos metodos http para a opção "EXT".
+
+Com a atual condição do nosso servidor, se um cliente enviar uma requi-
+sição HTTP GET para a url "http://localhost:3000" ele receberá uma respos-
+ta de tipo 200 ("OK") e o conteudo "Ola Mundo"  impresso na tela (basta rolar
+para baixo no site).
