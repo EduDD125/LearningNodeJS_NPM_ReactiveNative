@@ -1,0 +1,4 @@
+Para lermos ou escrevermos arquivos no Node.JS podemos usar
+o modulo "fileSystem" que é importanto com a linha de código:
+
+"const <var_name> = require("fs")"
