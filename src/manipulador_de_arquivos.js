@@ -18,7 +18,7 @@ arquivos.post("/escrever", (req, res) => {
         return res.status(400).send("O parâmetro 'content' é obrigatório.");
     }
 
-    fs.writeFile('Novo.txt', stringToWrite, (err) => {
+    fileSystem.writeFile('ArquivoComTextoDeUsuário.txt', stringToWrite, (err) => {
         if (err) {
             console.error(err);
             return res.status(500).send("Erro ao escrever no arquivo.");

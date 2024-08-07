@@ -8,6 +8,7 @@ const app = express();
 app.use(express.json()); // Middleware para interpretar o JSON
 
 app.use(routes);
+app.use(arquivos);
 
 app.get('/', (request, response) => {
     response.send("Olá Mundo");
