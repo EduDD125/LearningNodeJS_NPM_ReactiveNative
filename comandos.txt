@@ -7,7 +7,7 @@
 
 npm init - iniciar um projeto npm em um diretório
 npm i express - intalar o modulo "express"
-npm i nodemon   - instalar o modulo 'nodemon' (servidor)
+npm i nodemon   - instalar o modulo 'nodemon' (automatically restarting the node application when file changes in the directory are detected.)
 npm i cors  - instalar o modulo cors
 npm run dev - executar servidor
 
